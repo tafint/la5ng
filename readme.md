@@ -45,7 +45,7 @@ gem install sass
 ####################
 
 # Create a new database named "la5ng"
-# Import DB from file "deploys/20151217/local/database/db.zip" into your MySQL
+# Import DB from file "deploys/20151217/local/database/db.sql" into your MySQL
 # cd to the "src" directory, run the command "composer install" in Terminal
 # cd to the "src/public/themes/homer" directory, run the command "npm install"
 # Login information: demo[@example.com] / @demo*
