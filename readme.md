@@ -30,7 +30,7 @@ IncludeOptional "c:/wamp/www/la5ng/deploys/20151217/local/httpd-vhosts.conf"
 
 # Install the following first:
 https://git-scm.com
-https://nodejs.org [v4.4.7]
+https://nodejs.org#v4.4.7
 http://rubyinstaller.org
 https://getcomposer.org
 
