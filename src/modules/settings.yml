@@ -1,0 +1,39 @@
+app:
+  env: production # local, production, testing
+  theme: homer # homer, inspinia
+  url: ""
+  imports:
+  - { resource: custom.yml }
+  - { resource: ../config/app.php }
+  aliases:
+  providers:
+
+db:
+  imports:
+  - { resource: ../config/database.php }
+
+mail:
+  imports:
+  - { resource: ../config/mail.php }
+
+orm:
+  metadata:
+    paths:
+    - %base_path%/modules/Account/Entities
+    - %base_path%/modules/System/Entities
+    - %base_path%/modules/Store/Entities
+
+paths:
+  api: %base_path%/public/api
+  uploads: %base_path%/public/uploads
+
+session:
+  cookie: chaos
+  imports:
+  - { resource: ../config/session.php }
+  files:
+  table:
+
+urls:
+  api: %base_url%/api/
+  reset: %base_url%/#/reset?k=

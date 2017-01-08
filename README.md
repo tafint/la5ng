@@ -30,9 +30,9 @@ IncludeOptional "c:/wamp/www/la5ng/deploys/20151217/local/httpd-vhosts.conf"
 
 # Install the following first:
 https://git-scm.com
+https://getcomposer.org
 https://nodejs.org#v4.4.7
 http://rubyinstaller.org
-https://getcomposer.org
 
 # After Node is installed, run the following commands step by step:
 npm install -g bower

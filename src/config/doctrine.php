@@ -4,7 +4,6 @@
      */
     'metadata' => [
         'driver' => 'annotation',
-        'paths' => require __DIR__ . '/../modules/doctrine.paths.php',
         'simple' => false
     ],
     /*
