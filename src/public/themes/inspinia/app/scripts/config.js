@@ -68,7 +68,7 @@ function configBlocks($compileProvider, $httpProvider, $urlRouterProvider,
 
 function runBlocks($http, $rootScope, $state, $transitions, $translate, jwtHelper) {
     // setup some defaults
-    $http.defaults.route = CFG.app.url + (CFG.urls.api || "/api/");
+    $http.defaults.route = (CFG.urls.api || (CFG.app.url + "/api")) + "/";
     $rootScope.$state = $state;
     $rootScope.CFG = window.CFG;
     // $rootScope._ = window._;

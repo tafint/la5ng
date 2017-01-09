@@ -13,7 +13,7 @@ class SettingTableSeeder extends Seeder
         return [
             [
                 'name' => 'copyright',
-                'value' => 'Copyright (c) 2016 ntd1712'
+                'value' => 'Copyright (c) 2017 ntd1712'
             ],[
                 'name' => 'title',
                 'value' => 'Admin Panel'
@@ -21,11 +21,11 @@ class SettingTableSeeder extends Seeder
                 'name' => 'defaultRoute',
                 'value' => 'setting.index'
             ],[
-                'name' => 'imageAllowedExt',
-                'value' => 'gif,jpeg,jpg,png'
+                'name' => 'fallback_locale',
+                'value' => 'en'
             ],[
-                'name' => 'imageMaxSize',
-                'value' => 2097152
+                'name' => 'locale',
+                'value' => 'en'
             ],[
                 'name' => 'dateFormat',
                 'value' => 'Y-m-d'
@@ -33,14 +33,14 @@ class SettingTableSeeder extends Seeder
                 'name' => 'timeFormat',
                 'value' => 'H:i:s'
             ],[
+                'name' => 'imageAllowedExt',
+                'value' => 'gif,jpeg,jpg,png'
+            ],[
+                'name' => 'imageMaxSize',
+                'value' => 2097152
+            ],[
                 'name' => 'itemsPerPage',
                 'value' => 10
-            ],[
-                'name' => 'maxItemsPerPage',
-                'value' => 100
-            ],[
-                'name' => 'minSearchChars',
-                'value' => 4
             ]
         ];
     }

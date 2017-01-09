@@ -1,7 +1,7 @@
 app:
   env: production # local, production, testing
   theme: homer # homer, inspinia
-  url: ""
+  url: ''
   imports:
   - { resource: custom.yml }
   - { resource: ../config/app.php }
@@ -35,5 +35,5 @@ session:
   table:
 
 urls:
-  api: %base_url%/api/
+  api: %base_url%/api
   reset: %base_url%/#/reset?k=
